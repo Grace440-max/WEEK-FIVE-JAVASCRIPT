@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Directory</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>User Directory</h1>
+
+    <div class="controls">
+      <input id="searchInput" type="search" placeholder="Search by name or email…" aria-label="Search users" autocomplete="off">
+      <button id="loadButton" type="button">Load Users</button>
+    </div>
+
+    <p id="message" class="message" role="status" aria-live="polite">Click “Load Users” to begin.</p>
+
+    <section id="userList" class="user-list" aria-label="User cards"></section>
+  </main>
+
+  
+</body>
+</html>
